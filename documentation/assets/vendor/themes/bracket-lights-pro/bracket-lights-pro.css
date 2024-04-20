@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-bracket-lights-pro pre[class*="language-"],
+.osteo-bracket-lights-pro code[class*="language-"] {
+    color: #e88501;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-bracket-lights-pro pre[class*="language-"]::selection,
+.osteo-bracket-lights-pro code[class*="language-"]::selection,
+.osteo-bracket-lights-pro pre[class*="language-"]::mozselection,
+.osteo-bracket-lights-pro code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-bracket-lights-pro pre[class*="language-"],
+    .osteo-bracket-lights-pro code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-bracket-lights-pro pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #f8f8f8;
+}
+
+.osteo-bracket-lights-pro:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #e88501;
+    background: #f8f8f8;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-bracket-lights-pro .namespace {
+    opacity: .7;
+}
+
+.osteo-bracket-lights-pro .token.comment,
+.osteo-bracket-lights-pro .token.prolog,
+.osteo-bracket-lights-pro .token.doctype,
+.osteo-bracket-lights-pro .token.cdata {
+    color: #10a567;
+}
+
+.osteo-bracket-lights-pro .token.punctuation {
+    color: #535353;
+}
+
+.osteo-bracket-lights-pro .token.property,
+.osteo-bracket-lights-pro .token.tag,
+.osteo-bracket-lights-pro .token.boolean,
+.osteo-bracket-lights-pro .token.number,
+.osteo-bracket-lights-pro .token.constant,
+.osteo-bracket-lights-pro .token.symbol,
+.osteo-bracket-lights-pro .token.deleted {
+    color: #8431c5;
+}
+
+.osteo-bracket-lights-pro .token.selector,
+.osteo-bracket-lights-pro .token.attr-name,
+.osteo-bracket-lights-pro .token.string,
+.osteo-bracket-lights-pro .token.char,
+.osteo-bracket-lights-pro .token.builtin,
+.osteo-bracket-lights-pro .token.inserted {
+    color: #386ac3;
+}
+
+.osteo-bracket-lights-pro .token.operator,
+.osteo-bracket-lights-pro .token.entity,
+.osteo-bracket-lights-pro .token.url,
+.osteo-bracket-lights-pro .language-css .token.string,
+.osteo-bracket-lights-pro .style .token.string {
+    color: #0184bc;
+    background: transparent;
+}
+
+.osteo-bracket-lights-pro .token.atrule,
+.osteo-bracket-lights-pro .token.attr-value,
+.osteo-bracket-lights-pro .token.keyword {
+    color: #386ac3;
+}
+
+.osteo-bracket-lights-pro .token.function {
+    color: #8431c5;
+}
+
+.osteo-bracket-lights-pro .token.regex,
+.osteo-bracket-lights-pro .token.important,
+.osteo-bracket-lights-pro .token.variable {
+    color: #e88501;
+}
+
+.osteo-bracket-lights-pro .token.important,
+.osteo-bracket-lights-pro .token.bold {
+    font-weight: bold;
+}
+
+.osteo-bracket-lights-pro .token.italic {
+    font-style: italic;
+}
+
+.osteo-bracket-lights-pro .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-bracket-lights-pro pre[data-line] {
+    position: relative;
+}
+
+.osteo-bracket-lights-pro pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-bracket-lights-pro .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #f0f0f0;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

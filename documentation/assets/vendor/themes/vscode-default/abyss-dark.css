@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-abyss-dark pre[class*="language-"],
+.osteo-abyss-dark code[class*="language-"] {
+    color: #ada88d;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-abyss-dark pre[class*="language-"]::selection,
+.osteo-abyss-dark code[class*="language-"]::selection,
+.osteo-abyss-dark pre[class*="language-"]::mozselection,
+.osteo-abyss-dark code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-abyss-dark pre[class*="language-"],
+    .osteo-abyss-dark code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-abyss-dark pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #000c18;
+}
+
+.osteo-abyss-dark:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #22aa44;
+    background: #ffffff;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-abyss-dark .namespace {
+    opacity: .7;
+}
+
+.osteo-abyss-dark .token.comment,
+.osteo-abyss-dark .token.prolog,
+.osteo-abyss-dark .token.doctype,
+.osteo-abyss-dark .token.cdata {
+    color: #384879;
+}
+
+.osteo-abyss-dark .token.punctuation {
+    color: #6688cc;
+}
+
+.osteo-abyss-dark .token.property,
+.osteo-abyss-dark .token.tag,
+.osteo-abyss-dark .token.boolean,
+.osteo-abyss-dark .token.number,
+.osteo-abyss-dark .token.constant,
+.osteo-abyss-dark .token.symbol,
+.osteo-abyss-dark .token.deleted {
+    color: #6688cc;
+}
+
+.osteo-abyss-dark .token.selector,
+.osteo-abyss-dark .token.attr-name,
+.osteo-abyss-dark .token.string,
+.osteo-abyss-dark .token.char,
+.osteo-abyss-dark .token.builtin,
+.osteo-abyss-dark .token.inserted {
+    color: #22aa44;
+}
+
+.osteo-abyss-dark .token.operator,
+.osteo-abyss-dark .token.entity,
+.osteo-abyss-dark .token.url,
+.osteo-abyss-dark .language-css .token.string,
+.osteo-abyss-dark .style .token.string {
+    color: #6688cc;
+    background: transparent;
+}
+
+.osteo-abyss-dark .token.atrule,
+.osteo-abyss-dark .token.attr-value,
+.osteo-abyss-dark .token.keyword {
+    color: #9966b8;
+}
+
+.osteo-abyss-dark .token.function {
+    color: #ddbb82;
+}
+
+.osteo-abyss-dark .token.regex,
+.osteo-abyss-dark .token.important,
+.osteo-abyss-dark .token.variable {
+    color: #22aa44;
+}
+
+.osteo-abyss-dark .token.important,
+.osteo-abyss-dark .token.bold {
+    font-weight: bold;
+}
+
+.osteo-abyss-dark .token.italic {
+    font-style: italic;
+}
+
+.osteo-abyss-dark .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-abyss-dark pre[data-line] {
+    position: relative;
+}
+
+.osteo-abyss-dark pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-abyss-dark .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #082050;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #80a2c2;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

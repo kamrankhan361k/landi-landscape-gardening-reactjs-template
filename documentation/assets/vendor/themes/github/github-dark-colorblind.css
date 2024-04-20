@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-github-dark-colorblind pre[class*="language-"],
+.osteo-github-dark-colorblind code[class*="language-"] {
+    color: #45b4ff;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-github-dark-colorblind pre[class*="language-"]::selection,
+.osteo-github-dark-colorblind code[class*="language-"]::selection,
+.osteo-github-dark-colorblind pre[class*="language-"]::mozselection,
+.osteo-github-dark-colorblind code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-github-dark-colorblind pre[class*="language-"],
+    .osteo-github-dark-colorblind code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-github-dark-colorblind pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #0d1117;
+}
+
+.osteo-github-dark-colorblind:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #45b4ff;
+    background: #0d1117;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-github-dark-colorblind .namespace {
+    opacity: .7;
+}
+
+.osteo-github-dark-colorblind .token.comment,
+.osteo-github-dark-colorblind .token.prolog,
+.osteo-github-dark-colorblind .token.doctype,
+.osteo-github-dark-colorblind .token.cdata {
+    color: #8b949e;
+}
+
+.osteo-github-dark-colorblind .token.punctuation {
+    color: #c9d1d9;
+}
+
+.osteo-github-dark-colorblind .token.property,
+.osteo-github-dark-colorblind .token.tag,
+.osteo-github-dark-colorblind .token.boolean,
+.osteo-github-dark-colorblind .token.number,
+.osteo-github-dark-colorblind .token.constant,
+.osteo-github-dark-colorblind .token.symbol,
+.osteo-github-dark-colorblind .token.deleted {
+    color: #59c0ff;
+}
+
+.osteo-github-dark-colorblind .token.selector,
+.osteo-github-dark-colorblind .token.attr-name,
+.osteo-github-dark-colorblind .token.string,
+.osteo-github-dark-colorblind .token.char,
+.osteo-github-dark-colorblind .token.builtin,
+.osteo-github-dark-colorblind .token.inserted {
+    color: #8dcaff;
+}
+
+.osteo-github-dark-colorblind .token.operator,
+.osteo-github-dark-colorblind .token.entity,
+.osteo-github-dark-colorblind .token.url,
+.osteo-github-dark-colorblind .language-css .token.string,
+.osteo-github-dark-colorblind .style .token.string {
+    color: #d69a00;
+    background: transparent;
+}
+
+.osteo-github-dark-colorblind .token.atrule,
+.osteo-github-dark-colorblind .token.attr-value,
+.osteo-github-dark-colorblind .token.keyword {
+    color: #d69a00;
+}
+
+.osteo-github-dark-colorblind .token.function {
+    color: #c6a8ff;
+}
+
+.osteo-github-dark-colorblind .token.regex,
+.osteo-github-dark-colorblind .token.important,
+.osteo-github-dark-colorblind .token.variable {
+    color: #a5d6ff;
+}
+
+.osteo-github-dark-colorblind .token.important,
+.osteo-github-dark-colorblind .token.bold {
+    font-weight: bold;
+}
+
+.osteo-github-dark-colorblind .token.italic {
+    font-style: italic;
+}
+
+.osteo-github-dark-colorblind .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-github-dark-colorblind pre[data-line] {
+    position: relative;
+}
+
+.osteo-github-dark-colorblind pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-github-dark-colorblind .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #171b22;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

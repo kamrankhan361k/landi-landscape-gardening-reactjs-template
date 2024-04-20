@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-one-dark-pro pre[class*="language-"],
+.osteo-one-dark-pro code[class*="language-"] {
+    color: #d19a66;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-one-dark-pro pre[class*="language-"]::selection,
+.osteo-one-dark-pro code[class*="language-"]::selection,
+.osteo-one-dark-pro pre[class*="language-"]::mozselection,
+.osteo-one-dark-pro code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-one-dark-pro pre[class*="language-"],
+    .osteo-one-dark-pro code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-one-dark-pro pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #282c34;
+}
+
+.osteo-one-dark-pro:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #98c379;
+    background: #282c34;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-one-dark-pro .namespace {
+    opacity: .7;
+}
+
+.osteo-one-dark-pro .token.comment,
+.osteo-one-dark-pro .token.prolog,
+.osteo-one-dark-pro .token.doctype,
+.osteo-one-dark-pro .token.cdata {
+    color: #7ca668;
+}
+
+.osteo-one-dark-pro .token.punctuation {
+    color: #ffffff;
+}
+
+.osteo-one-dark-pro .token.property,
+.osteo-one-dark-pro .token.tag,
+.osteo-one-dark-pro .token.boolean,
+.osteo-one-dark-pro .token.number,
+.osteo-one-dark-pro .token.constant,
+.osteo-one-dark-pro .token.symbol,
+.osteo-one-dark-pro .token.deleted {
+    color: #d4d4d4;
+}
+
+.osteo-one-dark-pro .token.selector,
+.osteo-one-dark-pro .token.attr-name,
+.osteo-one-dark-pro .token.string,
+.osteo-one-dark-pro .token.char,
+.osteo-one-dark-pro .token.builtin,
+.osteo-one-dark-pro .token.inserted {
+    color: #e06c75;
+}
+
+.osteo-one-dark-pro .token.operator,
+.osteo-one-dark-pro .token.entity,
+.osteo-one-dark-pro .token.url,
+.osteo-one-dark-pro .language-css .token.string,
+.osteo-one-dark-pro .style .token.string {
+    color: #abb2bf;
+    background: transparent;
+}
+
+.osteo-one-dark-pro .token.atrule,
+.osteo-one-dark-pro .token.attr-value,
+.osteo-one-dark-pro .token.keyword {
+    color: #c678dd;
+}
+
+.osteo-one-dark-pro .token.function {
+    color: #61afef;
+}
+
+.osteo-one-dark-pro .token.regex,
+.osteo-one-dark-pro .token.important,
+.osteo-one-dark-pro .token.variable {
+    color: #56b6c2;
+}
+
+.osteo-one-dark-pro .token.important,
+.osteo-one-dark-pro .token.bold {
+    font-weight: bold;
+}
+
+.osteo-one-dark-pro .token.italic {
+    font-style: italic;
+}
+
+.osteo-one-dark-pro .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-one-dark-pro pre[data-line] {
+    position: relative;
+}
+
+.osteo-one-dark-pro pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-one-dark-pro .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #1e202e;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

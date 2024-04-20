@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-dracula pre[class*="language-"],
+.osteo-dracula code[class*="language-"] {
+    color: #b991f4;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-dracula pre[class*="language-"]::selection,
+.osteo-dracula code[class*="language-"]::selection,
+.osteo-dracula pre[class*="language-"]::mozselection,
+.osteo-dracula code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-dracula pre[class*="language-"],
+    .osteo-dracula code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-dracula pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #282a36;
+}
+
+.osteo-dracula:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #f1fa8c;
+    background: #282a36;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-dracula .namespace {
+    opacity: .7;
+}
+
+.osteo-dracula .token.comment,
+.osteo-dracula .token.prolog,
+.osteo-dracula .token.doctype,
+.osteo-dracula .token.cdata {
+    color: #6272a4;
+}
+
+.osteo-dracula .token.punctuation {
+    color: #f8f8f2;
+}
+
+.osteo-dracula .token.property,
+.osteo-dracula .token.tag,
+.osteo-dracula .token.boolean,
+.osteo-dracula .token.number,
+.osteo-dracula .token.constant,
+.osteo-dracula .token.symbol,
+.osteo-dracula .token.deleted {
+    color: #8be9fd;
+}
+
+.osteo-dracula .token.selector,
+.osteo-dracula .token.attr-name,
+.osteo-dracula .token.string,
+.osteo-dracula .token.char,
+.osteo-dracula .token.builtin,
+.osteo-dracula .token.inserted {
+    color: #48d279;
+}
+
+.osteo-dracula .token.operator,
+.osteo-dracula .token.entity,
+.osteo-dracula .token.url,
+.osteo-dracula .language-css .token.string,
+.osteo-dracula .style .token.string {
+    color: #ff79c6;
+    background: transparent;
+}
+
+.osteo-dracula .token.atrule,
+.osteo-dracula .token.attr-value,
+.osteo-dracula .token.keyword {
+    color: #f778c2;
+}
+
+.osteo-dracula .token.function {
+    color: #50fa7b;
+}
+
+.osteo-dracula .token.regex,
+.osteo-dracula .token.important,
+.osteo-dracula .token.variable {
+    color: #f1fa8c;
+}
+
+.osteo-dracula .token.important,
+.osteo-dracula .token.bold {
+    font-weight: bold;
+}
+
+.osteo-dracula .token.italic {
+    font-style: italic;
+}
+
+.osteo-dracula .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-dracula pre[data-line] {
+    position: relative;
+}
+
+.osteo-dracula pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-dracula .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #1e202e;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

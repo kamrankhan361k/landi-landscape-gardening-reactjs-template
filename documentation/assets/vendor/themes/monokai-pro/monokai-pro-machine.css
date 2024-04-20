@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-monokai-pro-machine pre[class*="language-"],
+.osteo-monokai-pro-machine code[class*="language-"] {
+    color: #598897;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-monokai-pro-machine pre[class*="language-"]::selection,
+.osteo-monokai-pro-machine code[class*="language-"]::selection,
+.osteo-monokai-pro-machine pre[class*="language-"]::mozselection,
+.osteo-monokai-pro-machine code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-monokai-pro-machine pre[class*="language-"],
+    .osteo-monokai-pro-machine code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-monokai-pro-machine pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #273136;
+}
+
+.osteo-monokai-pro-machine:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #598897;
+    background: #273136;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-monokai-pro-machine .namespace {
+    opacity: .7;
+}
+
+.osteo-monokai-pro-machine .token.comment,
+.osteo-monokai-pro-machine .token.prolog,
+.osteo-monokai-pro-machine .token.doctype,
+.osteo-monokai-pro-machine .token.cdata {
+    color: #466078;
+}
+
+.osteo-monokai-pro-machine .token.punctuation {
+    color: #8b9798;
+}
+
+.osteo-monokai-pro-machine .token.property,
+.osteo-monokai-pro-machine .token.tag,
+.osteo-monokai-pro-machine .token.boolean,
+.osteo-monokai-pro-machine .token.number,
+.osteo-monokai-pro-machine .token.constant,
+.osteo-monokai-pro-machine .token.symbol,
+.osteo-monokai-pro-machine .token.deleted {
+    color: #f2fffc;
+}
+
+.osteo-monokai-pro-machine .token.selector,
+.osteo-monokai-pro-machine .token.attr-name,
+.osteo-monokai-pro-machine .token.string,
+.osteo-monokai-pro-machine .token.char,
+.osteo-monokai-pro-machine .token.builtin,
+.osteo-monokai-pro-machine .token.inserted {
+    color: #ffd049;
+}
+
+.osteo-monokai-pro-machine .token.operator,
+.osteo-monokai-pro-machine .token.entity,
+.osteo-monokai-pro-machine .token.url,
+.osteo-monokai-pro-machine .language-css .token.string,
+.osteo-monokai-pro-machine .style .token.string {
+    color: #ff6d7e;
+    background: transparent;
+}
+
+.osteo-monokai-pro-machine .token.atrule,
+.osteo-monokai-pro-machine .token.attr-value,
+.osteo-monokai-pro-machine .token.keyword {
+    color: #74d5f1;
+}
+
+.osteo-monokai-pro-machine .token.function {
+    color: #a2e57b;
+}
+
+.osteo-monokai-pro-machine .token.regex,
+.osteo-monokai-pro-machine .token.important,
+.osteo-monokai-pro-machine .token.variable {
+    color: #ffed68;
+}
+
+.osteo-monokai-pro-machine .token.important,
+.osteo-monokai-pro-machine .token.bold {
+    font-weight: bold;
+}
+
+.osteo-monokai-pro-machine .token.italic {
+    font-style: italic;
+}
+
+.osteo-monokai-pro-machine .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-monokai-pro-machine pre[data-line] {
+    position: relative;
+}
+
+.osteo-monokai-pro-machine pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-monokai-pro-machine .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #313c40;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

@@ -1,0 +1,365 @@
+/*
+Plugin Name: Osteo - Timeline for Elementor
+Plugin URI: http://twinkletheme.xyz/
+Description: Osteo Timeline is a timeline addon for elementor page builder.
+Version: 1.0.0
+Author: TwinkleTheme
+Author URI: https://codecanyon.net/user/twinkletheme
+License: GPLv2 or later
+Text Domain: osteo-timeline
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #222;
+}
+
+a:focus,
+input:focus,
+button:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #222;
+    opacity: 0.7;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #222;
+    opacity: 0.7;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #222;
+    opacity: 0.7;
+}
+
+[type=button]:focus,
+[type=button]:hover,
+[type=submit]:focus,
+[type=submit]:hover,
+button:focus,
+button:hover {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#scrollUp {
+    bottom: 70px;
+    right: 30px;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 12px;
+    background: #2196F3;
+    border-radius: 50px;
+}
+
+
+/*
+* Preloader
+*/
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    z-index: 99;
+}
+
+.preloader .sk-plane,
+.preloader .sk-chase,
+.preloader .sk-bounce,
+.preloader .sk-wave,
+.preloader .sk-pulse,
+.preloader .sk-flow,
+.preloader .sk-swing,
+.preloader .sk-circle,
+.preloader .sk-circle-fade,
+.preloader .sk-grid,
+.preloader .sk-fold,
+.preloader .sk-wander {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    margin: 0;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.sk-plane,
+.sk-chase-dot:before,
+.sk-bounce-dot,
+.sk-wave-rect,
+.sk-pulse,
+.sk-flow-dot,
+.sk-swing-dot,
+.sk-circle-dot:before,
+.sk-circle-fade-dot:before,
+.sk-grid-cube,
+.sk-fold-cube:before,
+.sk-wander-cube {
+    background-color: #2196F3;
+}
+
+div.code-toolbar>.toolbar>.toolbar-item>a,
+div.code-toolbar>.toolbar>.toolbar-item>a:hover,
+div.code-toolbar>.toolbar>.toolbar-item>a:focus,
+div.code-toolbar>.toolbar>.toolbar-item>button,
+div.code-toolbar>.toolbar>.toolbar-item>button:hover,
+div.code-toolbar>.toolbar>.toolbar-item>button:focus,
+div.code-toolbar>.toolbar>.toolbar-item>span,
+div.code-toolbar>.toolbar>.toolbar-item>span:hover,
+div.code-toolbar>.toolbar>.toolbar-item>span:focus {
+    color: #fff;
+    font-size: 16px;
+    background: #2196F3;
+    padding: 10px 30px;
+    margin-right: 10px;
+    margin-top: 15px;
+    outline: none;
+}
+
+.osteo-syntax-highlighter pre[class*="language-"],
+.osteo-syntax-highlighter code[class*="language-"] {
+    font-size: 18px;
+}
+
+
+/* 7. OFF Canvas Menu */
+
+.off-canvas-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #FFE459;
+    width: 14%;
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.off-canvas-menu-shade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    z-index: 98;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.off-canvas-menu-shade.active {
+    opacity: .7;
+    visibility: visible;
+}
+
+.off-canvas-menu.show-off-canvas-menu {
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+}
+
+.logo {
+    height: 120px;
+    text-align: center;
+}
+
+.logo h2 {
+    padding: 42px;
+}
+
+.side-menu ul li a {
+    display: block;
+    padding: 10px 25px;
+    transition: .3s;
+}
+
+.side-menu ul li a:hover {
+    background-color: #222;
+    color: #fff;
+    transition: .3s;
+}
+
+.side-menu ul li.current a {
+    background-color: #222;
+    color: #fff;
+}
+
+#home,
+#support {
+    height: 100vh;
+    padding-top: 200px;
+}
+
+#home ul {
+    padding: 30px 0;
+}
+
+#home li {
+    margin-bottom: 10px;
+}
+
+#installation {
+    padding-top: 200px;
+    height: 100vh;
+}
+
+#installation ul li {
+    list-style: circle;
+}
+
+#installation ul {
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+#file h2,
+#html h2,
+#css h2,
+#js h2,
+#support h2 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+#custom {
+    padding-top: 100px;
+    height: 100vh;
+}
+
+#custom h3 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#source {
+    padding-top: 200px;
+    height: 100vh;
+}
+
+#source ul {
+    padding-left: 40px;
+}
+
+#source ul li {
+    list-style: circle;
+}
+
+#source h5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#source ul li a,
+#support a {
+    color: #FF4A57;
+}
+
+
+/* 11. Footer */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #222;
+    padding: 10px 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer p {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.footer a {
+    color: #fff;
+}

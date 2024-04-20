@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-monokai-pro-restretto pre[class*="language-"],
+.osteo-monokai-pro-restretto code[class*="language-"] {
+    color: #6da198;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-monokai-pro-restretto pre[class*="language-"]::selection,
+.osteo-monokai-pro-restretto code[class*="language-"]::selection,
+.osteo-monokai-pro-restretto pre[class*="language-"]::mozselection,
+.osteo-monokai-pro-restretto code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-monokai-pro-restretto pre[class*="language-"],
+    .osteo-monokai-pro-restretto code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-monokai-pro-restretto pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #2c2525;
+}
+
+.osteo-monokai-pro-restretto:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #6da198;
+    background: #2c2525;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-monokai-pro-restretto .namespace {
+    opacity: .7;
+}
+
+.osteo-monokai-pro-restretto .token.comment,
+.osteo-monokai-pro-restretto .token.prolog,
+.osteo-monokai-pro-restretto .token.doctype,
+.osteo-monokai-pro-restretto .token.cdata {
+    color: #72696a;
+}
+
+.osteo-monokai-pro-restretto .token.punctuation {
+    color: #948a8b;
+}
+
+.osteo-monokai-pro-restretto .token.property,
+.osteo-monokai-pro-restretto .token.tag,
+.osteo-monokai-pro-restretto .token.boolean,
+.osteo-monokai-pro-restretto .token.number,
+.osteo-monokai-pro-restretto .token.constant,
+.osteo-monokai-pro-restretto .token.symbol,
+.osteo-monokai-pro-restretto .token.deleted {
+    color: #f2f1f3;
+}
+
+.osteo-monokai-pro-restretto .token.selector,
+.osteo-monokai-pro-restretto .token.attr-name,
+.osteo-monokai-pro-restretto .token.string,
+.osteo-monokai-pro-restretto .token.char,
+.osteo-monokai-pro-restretto .token.builtin,
+.osteo-monokai-pro-restretto .token.inserted {
+    color: #f9cc6c;
+}
+
+.osteo-monokai-pro-restretto .token.operator,
+.osteo-monokai-pro-restretto .token.entity,
+.osteo-monokai-pro-restretto .token.url,
+.osteo-monokai-pro-restretto .language-css .token.string,
+.osteo-monokai-pro-restretto .style .token.string {
+    color: #fd6883;
+    background: transparent;
+}
+
+.osteo-monokai-pro-restretto .token.atrule,
+.osteo-monokai-pro-restretto .token.attr-value,
+.osteo-monokai-pro-restretto .token.keyword {
+    color: #7cdacc;
+}
+
+.osteo-monokai-pro-restretto .token.function {
+    color: #83cd78;
+}
+
+.osteo-monokai-pro-restretto .token.regex,
+.osteo-monokai-pro-restretto .token.important,
+.osteo-monokai-pro-restretto .token.variable {
+    color: #f9cc6c;
+}
+
+.osteo-monokai-pro-restretto .token.important,
+.osteo-monokai-pro-restretto .token.bold {
+    font-weight: bold;
+}
+
+.osteo-monokai-pro-restretto .token.italic {
+    font-style: italic;
+}
+
+.osteo-monokai-pro-restretto .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-monokai-pro-restretto pre[data-line] {
+    position: relative;
+}
+
+.osteo-monokai-pro-restretto pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-monokai-pro-restretto .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #372f2f;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

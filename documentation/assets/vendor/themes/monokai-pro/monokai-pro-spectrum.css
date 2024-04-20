@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-monokai-pro-spectrum pre[class*="language-"],
+.osteo-monokai-pro-spectrum code[class*="language-"] {
+    color: #4f9fac;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-monokai-pro-spectrum pre[class*="language-"]::selection,
+.osteo-monokai-pro-spectrum code[class*="language-"]::selection,
+.osteo-monokai-pro-spectrum pre[class*="language-"]::mozselection,
+.osteo-monokai-pro-spectrum code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-monokai-pro-spectrum pre[class*="language-"],
+    .osteo-monokai-pro-spectrum code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-monokai-pro-spectrum pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #222222;
+}
+
+.osteo-monokai-pro-spectrum:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #4f9fac;
+    background: #222222;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-monokai-pro-spectrum .namespace {
+    opacity: .7;
+}
+
+.osteo-monokai-pro-spectrum .token.comment,
+.osteo-monokai-pro-spectrum .token.prolog,
+.osteo-monokai-pro-spectrum .token.doctype,
+.osteo-monokai-pro-spectrum .token.cdata {
+    color: #5e676c;
+}
+
+.osteo-monokai-pro-spectrum .token.punctuation {
+    color: #8b888f;
+}
+
+.osteo-monokai-pro-spectrum .token.property,
+.osteo-monokai-pro-spectrum .token.tag,
+.osteo-monokai-pro-spectrum .token.boolean,
+.osteo-monokai-pro-spectrum .token.number,
+.osteo-monokai-pro-spectrum .token.constant,
+.osteo-monokai-pro-spectrum .token.symbol,
+.osteo-monokai-pro-spectrum .token.deleted {
+    color: #f7f1ff;
+}
+
+.osteo-monokai-pro-spectrum .token.selector,
+.osteo-monokai-pro-spectrum .token.attr-name,
+.osteo-monokai-pro-spectrum .token.string,
+.osteo-monokai-pro-spectrum .token.char,
+.osteo-monokai-pro-spectrum .token.builtin,
+.osteo-monokai-pro-spectrum .token.inserted {
+    color: #fce566;
+}
+
+.osteo-monokai-pro-spectrum .token.operator,
+.osteo-monokai-pro-spectrum .token.entity,
+.osteo-monokai-pro-spectrum .token.url,
+.osteo-monokai-pro-spectrum .language-css .token.string,
+.osteo-monokai-pro-spectrum .style .token.string {
+    color: #f25e88;
+    background: transparent;
+}
+
+.osteo-monokai-pro-spectrum .token.atrule,
+.osteo-monokai-pro-spectrum .token.attr-value,
+.osteo-monokai-pro-spectrum .token.keyword {
+    color: #5ad4e6;
+}
+
+.osteo-monokai-pro-spectrum .token.function {
+    color: #7bd88f;
+}
+
+.osteo-monokai-pro-spectrum .token.regex,
+.osteo-monokai-pro-spectrum .token.important,
+.osteo-monokai-pro-spectrum .token.variable {
+    color: #fce566;
+}
+
+.osteo-monokai-pro-spectrum .token.important,
+.osteo-monokai-pro-spectrum .token.bold {
+    font-weight: bold;
+}
+
+.osteo-monokai-pro-spectrum .token.italic {
+    font-style: italic;
+}
+
+.osteo-monokai-pro-spectrum .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-monokai-pro-spectrum pre[data-line] {
+    position: relative;
+}
+
+.osteo-monokai-pro-spectrum pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-monokai-pro-spectrum .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #2d2c2d;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

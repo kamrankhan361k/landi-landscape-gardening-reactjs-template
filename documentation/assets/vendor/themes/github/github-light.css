@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-github-light pre[class*="language-"],
+.osteo-github-light code[class*="language-"] {
+    color: #005cc5;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-github-light pre[class*="language-"]::selection,
+.osteo-github-light code[class*="language-"]::selection,
+.osteo-github-light pre[class*="language-"]::mozselection,
+.osteo-github-light code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-github-light pre[class*="language-"],
+    .osteo-github-light code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-github-light pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #ffffff;
+}
+
+.osteo-github-light:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #005cc5;
+    background: #ffffff;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-github-light .namespace {
+    opacity: .7;
+}
+
+.osteo-github-light .token.comment,
+.osteo-github-light .token.prolog,
+.osteo-github-light .token.doctype,
+.osteo-github-light .token.cdata {
+    color: #6a7392;
+}
+
+.osteo-github-light .token.punctuation {
+    color: #24292e;
+}
+
+.osteo-github-light .token.property,
+.osteo-github-light .token.tag,
+.osteo-github-light .token.boolean,
+.osteo-github-light .token.number,
+.osteo-github-light .token.constant,
+.osteo-github-light .token.symbol,
+.osteo-github-light .token.deleted {
+    color: #005cc5;
+}
+
+.osteo-github-light .token.selector,
+.osteo-github-light .token.attr-name,
+.osteo-github-light .token.string,
+.osteo-github-light .token.char,
+.osteo-github-light .token.builtin,
+.osteo-github-light .token.inserted {
+    color: #032f62;
+}
+
+.osteo-github-light .token.operator,
+.osteo-github-light .token.entity,
+.osteo-github-light .token.url,
+.osteo-github-light .language-css .token.string,
+.osteo-github-light .style .token.string {
+    color: #d73a49;
+    background: transparent;
+}
+
+.osteo-github-light .token.atrule,
+.osteo-github-light .token.attr-value,
+.osteo-github-light .token.keyword {
+    color: #d73a49;
+}
+
+.osteo-github-light .token.function {
+    color: #8442c1;
+}
+
+.osteo-github-light .token.regex,
+.osteo-github-light .token.important,
+.osteo-github-light .token.variable {
+    color: #33496c;
+}
+
+.osteo-github-light .token.important,
+.osteo-github-light .token.bold {
+    font-weight: bold;
+}
+
+.osteo-github-light .token.italic {
+    font-style: italic;
+}
+
+.osteo-github-light .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-github-light pre[data-line] {
+    position: relative;
+}
+
+.osteo-github-light pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-github-light .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #f6f8fa;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

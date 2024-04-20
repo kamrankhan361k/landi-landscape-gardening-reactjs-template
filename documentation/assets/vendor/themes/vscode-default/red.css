@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-red pre[class*="language-"],
+.osteo-red code[class*="language-"] {
+    color: #ffe862;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-red pre[class*="language-"]::selection,
+.osteo-red code[class*="language-"]::selection,
+.osteo-red pre[class*="language-"]::mozselection,
+.osteo-red code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-red pre[class*="language-"],
+    .osteo-red code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-red pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #390000;
+}
+
+.osteo-red:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #cd8d8d;
+    background: #390000;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-red .namespace {
+    opacity: .7;
+}
+
+.osteo-red .token.comment,
+.osteo-red .token.prolog,
+.osteo-red .token.doctype,
+.osteo-red .token.cdata {
+    color: #e7c0c0;
+}
+
+.osteo-red .token.punctuation {
+    color: #f8f8f8;
+}
+
+.osteo-red .token.property,
+.osteo-red .token.tag,
+.osteo-red .token.boolean,
+.osteo-red .token.number,
+.osteo-red .token.constant,
+.osteo-red .token.symbol,
+.osteo-red .token.deleted {
+    color: #8cdd3b;
+}
+
+.osteo-red .token.selector,
+.osteo-red .token.attr-name,
+.osteo-red .token.string,
+.osteo-red .token.char,
+.osteo-red .token.builtin,
+.osteo-red .token.inserted {
+    color: #aa3202;
+}
+
+.osteo-red .token.operator,
+.osteo-red .token.entity,
+.osteo-red .token.url,
+.osteo-red .language-css .token.string,
+.osteo-red .style .token.string {
+    color: #f12727;
+    background: transparent;
+}
+
+.osteo-red .token.atrule,
+.osteo-red .token.attr-value,
+.osteo-red .token.keyword {
+    color: #da5362;
+}
+
+.osteo-red .token.function {
+    color: #fec758;
+}
+
+.osteo-red .token.regex,
+.osteo-red .token.important,
+.osteo-red .token.variable {
+    color: #ffb454;
+}
+
+.osteo-red .token.important,
+.osteo-red .token.bold {
+    font-weight: bold;
+}
+
+.osteo-red .token.italic {
+    font-style: italic;
+}
+
+.osteo-red .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-red pre[data-line] {
+    position: relative;
+}
+
+.osteo-red pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-red .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #4C0000;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

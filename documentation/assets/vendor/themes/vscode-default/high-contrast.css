@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-high-contrast pre[class*="language-"],
+.osteo-high-contrast code[class*="language-"] {
+    color: #ce9178;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-high-contrast pre[class*="language-"]::selection,
+.osteo-high-contrast code[class*="language-"]::selection,
+.osteo-high-contrast pre[class*="language-"]::mozselection,
+.osteo-high-contrast code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-high-contrast pre[class*="language-"],
+    .osteo-high-contrast code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-high-contrast pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #000000;
+}
+
+.osteo-high-contrast:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #ce9178;
+    background: #000000;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-high-contrast .namespace {
+    opacity: .7;
+}
+
+.osteo-high-contrast .token.comment,
+.osteo-high-contrast .token.prolog,
+.osteo-high-contrast .token.doctype,
+.osteo-high-contrast .token.cdata {
+    color: #7ca668;
+}
+
+.osteo-high-contrast .token.punctuation {
+    color: #ffffff;
+}
+
+.osteo-high-contrast .token.property,
+.osteo-high-contrast .token.tag,
+.osteo-high-contrast .token.boolean,
+.osteo-high-contrast .token.number,
+.osteo-high-contrast .token.constant,
+.osteo-high-contrast .token.symbol,
+.osteo-high-contrast .token.deleted {
+    color: #d4d4d4;
+}
+
+.osteo-high-contrast .token.selector,
+.osteo-high-contrast .token.attr-name,
+.osteo-high-contrast .token.string,
+.osteo-high-contrast .token.char,
+.osteo-high-contrast .token.builtin,
+.osteo-high-contrast .token.inserted {
+    color: #d7ba7d;
+}
+
+.osteo-high-contrast .token.operator,
+.osteo-high-contrast .token.entity,
+.osteo-high-contrast .token.url,
+.osteo-high-contrast .language-css .token.string,
+.osteo-high-contrast .style .token.string {
+    color: #ffffff;
+    background: transparent;
+}
+
+.osteo-high-contrast .token.atrule,
+.osteo-high-contrast .token.attr-value,
+.osteo-high-contrast .token.keyword {
+    color: #338cd6;
+}
+
+.osteo-high-contrast .token.function {
+    color: #dcdc8c;
+}
+
+.osteo-high-contrast .token.regex,
+.osteo-high-contrast .token.important,
+.osteo-high-contrast .token.variable {
+    color: #d16969;
+}
+
+.osteo-high-contrast .token.important,
+.osteo-high-contrast .token.bold {
+    font-weight: bold;
+}
+
+.osteo-high-contrast .token.italic {
+    font-style: italic;
+}
+
+.osteo-high-contrast .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-high-contrast pre[data-line] {
+    position: relative;
+}
+
+.osteo-high-contrast pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-high-contrast .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #1e202e;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

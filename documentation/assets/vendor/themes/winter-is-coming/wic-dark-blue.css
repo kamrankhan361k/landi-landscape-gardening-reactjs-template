@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-wic-dark-blue pre[class*="language-"],
+.osteo-wic-dark-blue code[class*="language-"] {
+    color: #867ed4;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-wic-dark-blue pre[class*="language-"]::selection,
+.osteo-wic-dark-blue code[class*="language-"]::selection,
+.osteo-wic-dark-blue pre[class*="language-"]::mozselection,
+.osteo-wic-dark-blue code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-wic-dark-blue pre[class*="language-"],
+    .osteo-wic-dark-blue code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-wic-dark-blue pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #011627;
+}
+
+.osteo-wic-dark-blue:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #867ed4;
+    background: #011627;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-wic-dark-blue .namespace {
+    opacity: .7;
+}
+
+.osteo-wic-dark-blue .token.comment,
+.osteo-wic-dark-blue .token.prolog,
+.osteo-wic-dark-blue .token.doctype,
+.osteo-wic-dark-blue .token.cdata {
+    color: #859999;
+}
+
+.osteo-wic-dark-blue .token.punctuation {
+    color: #a7dbf7;
+}
+
+.osteo-wic-dark-blue .token.property,
+.osteo-wic-dark-blue .token.tag,
+.osteo-wic-dark-blue .token.boolean,
+.osteo-wic-dark-blue .token.number,
+.osteo-wic-dark-blue .token.constant,
+.osteo-wic-dark-blue .token.symbol,
+.osteo-wic-dark-blue .token.deleted {
+    color: #7fdbca;
+}
+
+.osteo-wic-dark-blue .token.selector,
+.osteo-wic-dark-blue .token.attr-name,
+.osteo-wic-dark-blue .token.string,
+.osteo-wic-dark-blue .token.char,
+.osteo-wic-dark-blue .token.builtin,
+.osteo-wic-dark-blue .token.inserted {
+    color: #84ec95;
+}
+
+.osteo-wic-dark-blue .token.operator,
+.osteo-wic-dark-blue .token.entity,
+.osteo-wic-dark-blue .token.url,
+.osteo-wic-dark-blue .language-css .token.string,
+.osteo-wic-dark-blue .style .token.string {
+    color: #00bff9;
+    background: transparent;
+}
+
+.osteo-wic-dark-blue .token.atrule,
+.osteo-wic-dark-blue .token.attr-value,
+.osteo-wic-dark-blue .token.keyword {
+    color: #00bff9;
+}
+
+.osteo-wic-dark-blue .token.function {
+    color: #87aff4;
+}
+
+.osteo-wic-dark-blue .token.regex,
+.osteo-wic-dark-blue .token.important,
+.osteo-wic-dark-blue .token.variable {
+    color: #aaf0c0;
+}
+
+.osteo-wic-dark-blue .token.important,
+.osteo-wic-dark-blue .token.bold {
+    font-weight: bold;
+}
+
+.osteo-wic-dark-blue .token.italic {
+    font-style: italic;
+}
+
+.osteo-wic-dark-blue .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-wic-dark-blue pre[data-line] {
+    position: relative;
+}
+
+.osteo-wic-dark-blue pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-wic-dark-blue .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #072e5b;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

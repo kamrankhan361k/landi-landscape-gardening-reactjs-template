@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-doutone-dark-earth pre[class*="language-"],
+.osteo-doutone-dark-earth code[class*="language-"] {
+    color: #B7A294;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-doutone-dark-earth pre[class*="language-"]::selection,
+.osteo-doutone-dark-earth code[class*="language-"]::selection,
+.osteo-doutone-dark-earth pre[class*="language-"]::mozselection,
+.osteo-doutone-dark-earth code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-doutone-dark-earth pre[class*="language-"],
+    .osteo-doutone-dark-earth code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-doutone-dark-earth pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #2c2826;
+}
+
+.osteo-doutone-dark-earth:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #fecb52;
+    background: #2c2826;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-doutone-dark-earth .namespace {
+    opacity: .7;
+}
+
+.osteo-doutone-dark-earth .token.comment,
+.osteo-doutone-dark-earth .token.prolog,
+.osteo-doutone-dark-earth .token.doctype,
+.osteo-doutone-dark-earth .token.cdata {
+    color: #564b43;
+}
+
+.osteo-doutone-dark-earth .token.punctuation {
+    color: #564b43;
+}
+
+.osteo-doutone-dark-earth .token.property,
+.osteo-doutone-dark-earth .token.tag,
+.osteo-doutone-dark-earth .token.boolean,
+.osteo-doutone-dark-earth .token.number,
+.osteo-doutone-dark-earth .token.constant,
+.osteo-doutone-dark-earth .token.symbol,
+.osteo-doutone-dark-earth .token.deleted {
+    color: #98755d;
+}
+
+.osteo-doutone-dark-earth .token.selector,
+.osteo-doutone-dark-earth .token.attr-name,
+.osteo-doutone-dark-earth .token.string,
+.osteo-doutone-dark-earth .token.char,
+.osteo-doutone-dark-earth .token.builtin,
+.osteo-doutone-dark-earth .token.inserted {
+    color: #fecb52;
+}
+
+.osteo-doutone-dark-earth .token.operator,
+.osteo-doutone-dark-earth .token.entity,
+.osteo-doutone-dark-earth .token.url,
+.osteo-doutone-dark-earth .language-css .token.string,
+.osteo-doutone-dark-earth .style .token.string {
+    color: #8e7138;
+    background: transparent;
+}
+
+.osteo-doutone-dark-earth .token.atrule,
+.osteo-doutone-dark-earth .token.attr-value,
+.osteo-doutone-dark-earth .token.keyword {
+    color: #fecb52;
+}
+
+.osteo-doutone-dark-earth .token.function {
+    color: #ffdac2;
+}
+
+.osteo-doutone-dark-earth .token.regex,
+.osteo-doutone-dark-earth .token.important,
+.osteo-doutone-dark-earth .token.variable {
+    color: #fecb52;
+}
+
+.osteo-doutone-dark-earth .token.important,
+.osteo-doutone-dark-earth .token.bold {
+    font-weight: bold;
+}
+
+.osteo-doutone-dark-earth .token.italic {
+    font-style: italic;
+}
+
+.osteo-doutone-dark-earth .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-doutone-dark-earth pre[data-line] {
+    position: relative;
+}
+
+.osteo-doutone-dark-earth pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-doutone-dark-earth .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #35302d;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

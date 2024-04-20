@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-lws-shades-of-gray pre[class*="language-"],
+.osteo-lws-shades-of-gray code[class*="language-"] {
+    color: #00e8c6;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-lws-shades-of-gray pre[class*="language-"]::selection,
+.osteo-lws-shades-of-gray code[class*="language-"]::selection,
+.osteo-lws-shades-of-gray pre[class*="language-"]::mozselection,
+.osteo-lws-shades-of-gray code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-lws-shades-of-gray pre[class*="language-"],
+    .osteo-lws-shades-of-gray code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-lws-shades-of-gray pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #24292e;
+}
+
+.osteo-lws-shades-of-gray:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #00e8c6;
+    background: #24292e;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-lws-shades-of-gray .namespace {
+    opacity: .7;
+}
+
+.osteo-lws-shades-of-gray .token.comment,
+.osteo-lws-shades-of-gray .token.prolog,
+.osteo-lws-shades-of-gray .token.doctype,
+.osteo-lws-shades-of-gray .token.cdata {
+    color: #334e67;
+}
+
+.osteo-lws-shades-of-gray .token.punctuation {
+    color: #e1e4e8;
+}
+
+.osteo-lws-shades-of-gray .token.property,
+.osteo-lws-shades-of-gray .token.tag,
+.osteo-lws-shades-of-gray .token.boolean,
+.osteo-lws-shades-of-gray .token.number,
+.osteo-lws-shades-of-gray .token.constant,
+.osteo-lws-shades-of-gray .token.symbol,
+.osteo-lws-shades-of-gray .token.deleted {
+    color: #e1e4e8;
+}
+
+.osteo-lws-shades-of-gray .token.selector,
+.osteo-lws-shades-of-gray .token.attr-name,
+.osteo-lws-shades-of-gray .token.string,
+.osteo-lws-shades-of-gray .token.char,
+.osteo-lws-shades-of-gray .token.builtin,
+.osteo-lws-shades-of-gray .token.inserted {
+    color: #96e072;
+}
+
+.osteo-lws-shades-of-gray .token.operator,
+.osteo-lws-shades-of-gray .token.entity,
+.osteo-lws-shades-of-gray .token.url,
+.osteo-lws-shades-of-gray .language-css .token.string,
+.osteo-lws-shades-of-gray .style .token.string {
+    color: #00e8c6;
+    background: transparent;
+}
+
+.osteo-lws-shades-of-gray .token.atrule,
+.osteo-lws-shades-of-gray .token.attr-value,
+.osteo-lws-shades-of-gray .token.keyword {
+    color: #c74ded;
+}
+
+.osteo-lws-shades-of-gray .token.function {
+    color: #ffe66d;
+}
+
+.osteo-lws-shades-of-gray .token.regex,
+.osteo-lws-shades-of-gray .token.important,
+.osteo-lws-shades-of-gray .token.variable {
+    color: #7cb7ff;
+}
+
+.osteo-lws-shades-of-gray .token.important,
+.osteo-lws-shades-of-gray .token.bold {
+    font-weight: bold;
+}
+
+.osteo-lws-shades-of-gray .token.italic {
+    font-style: italic;
+}
+
+.osteo-lws-shades-of-gray .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-lws-shades-of-gray pre[data-line] {
+    position: relative;
+}
+
+.osteo-lws-shades-of-gray pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-lws-shades-of-gray .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #2b3036;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

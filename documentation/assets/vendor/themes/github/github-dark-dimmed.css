@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-github-dark-dimmed pre[class*="language-"],
+.osteo-github-dark-dimmed code[class*="language-"] {
+    color: #5eb4ff;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-github-dark-dimmed pre[class*="language-"]::selection,
+.osteo-github-dark-dimmed code[class*="language-"]::selection,
+.osteo-github-dark-dimmed pre[class*="language-"]::mozselection,
+.osteo-github-dark-dimmed code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-github-dark-dimmed pre[class*="language-"],
+    .osteo-github-dark-dimmed code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-github-dark-dimmed pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #22272e;
+}
+
+.osteo-github-dark-dimmed:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #5eb4ff;
+    background: #22272e;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-github-dark-dimmed .namespace {
+    opacity: .7;
+}
+
+.osteo-github-dark-dimmed .token.comment,
+.osteo-github-dark-dimmed .token.prolog,
+.osteo-github-dark-dimmed .token.doctype,
+.osteo-github-dark-dimmed .token.cdata {
+    color: #768390;
+}
+
+.osteo-github-dark-dimmed .token.punctuation {
+    color: #adbac7;
+}
+
+.osteo-github-dark-dimmed .token.property,
+.osteo-github-dark-dimmed .token.tag,
+.osteo-github-dark-dimmed .token.boolean,
+.osteo-github-dark-dimmed .token.number,
+.osteo-github-dark-dimmed .token.constant,
+.osteo-github-dark-dimmed .token.symbol,
+.osteo-github-dark-dimmed .token.deleted {
+    color: #6cb6ff;
+}
+
+.osteo-github-dark-dimmed .token.selector,
+.osteo-github-dark-dimmed .token.attr-name,
+.osteo-github-dark-dimmed .token.string,
+.osteo-github-dark-dimmed .token.char,
+.osteo-github-dark-dimmed .token.builtin,
+.osteo-github-dark-dimmed .token.inserted {
+    color: #96d0ff;
+}
+
+.osteo-github-dark-dimmed .token.operator,
+.osteo-github-dark-dimmed .token.entity,
+.osteo-github-dark-dimmed .token.url,
+.osteo-github-dark-dimmed .language-css .token.string,
+.osteo-github-dark-dimmed .style .token.string {
+    color: #f47067;
+    background: transparent;
+}
+
+.osteo-github-dark-dimmed .token.atrule,
+.osteo-github-dark-dimmed .token.attr-value,
+.osteo-github-dark-dimmed .token.keyword {
+    color: #f47067;
+}
+
+.osteo-github-dark-dimmed .token.function {
+    color: #dcbdfb;
+}
+
+.osteo-github-dark-dimmed .token.regex,
+.osteo-github-dark-dimmed .token.important,
+.osteo-github-dark-dimmed .token.variable {
+    color: #4fb0ff;
+}
+
+.osteo-github-dark-dimmed .token.important,
+.osteo-github-dark-dimmed .token.bold {
+    font-weight: bold;
+}
+
+.osteo-github-dark-dimmed .token.italic {
+    font-style: italic;
+}
+
+.osteo-github-dark-dimmed .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-github-dark-dimmed pre[data-line] {
+    position: relative;
+}
+
+.osteo-github-dark-dimmed pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-github-dark-dimmed .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #292e36;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

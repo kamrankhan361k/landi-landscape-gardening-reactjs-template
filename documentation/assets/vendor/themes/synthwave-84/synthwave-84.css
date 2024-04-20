@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-synthwave-84 pre[class*="language-"],
+.osteo-synthwave-84 code[class*="language-"] {
+    color: #fe4450;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-synthwave-84 pre[class*="language-"]::selection,
+.osteo-synthwave-84 code[class*="language-"]::selection,
+.osteo-synthwave-84 pre[class*="language-"]::mozselection,
+.osteo-synthwave-84 code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-synthwave-84 pre[class*="language-"],
+    .osteo-synthwave-84 code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-synthwave-84 pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #262335;
+}
+
+.osteo-synthwave-84:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #ff8b39;
+    background: #262335;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-synthwave-84 .namespace {
+    opacity: .7;
+}
+
+.osteo-synthwave-84 .token.comment,
+.osteo-synthwave-84 .token.prolog,
+.osteo-synthwave-84 .token.doctype,
+.osteo-synthwave-84 .token.cdata {
+    color: #848bbd;
+}
+
+.osteo-synthwave-84 .token.punctuation {
+    color: #bbbbbb;
+}
+
+.osteo-synthwave-84 .token.property,
+.osteo-synthwave-84 .token.tag,
+.osteo-synthwave-84 .token.boolean,
+.osteo-synthwave-84 .token.number,
+.osteo-synthwave-84 .token.constant,
+.osteo-synthwave-84 .token.symbol,
+.osteo-synthwave-84 .token.deleted {
+    color: #72f1b8;
+}
+
+.osteo-synthwave-84 .token.selector,
+.osteo-synthwave-84 .token.attr-name,
+.osteo-synthwave-84 .token.string,
+.osteo-synthwave-84 .token.char,
+.osteo-synthwave-84 .token.builtin,
+.osteo-synthwave-84 .token.inserted {
+    color: #72f1b8;
+}
+
+.osteo-synthwave-84 .token.operator,
+.osteo-synthwave-84 .token.entity,
+.osteo-synthwave-84 .token.url,
+.osteo-synthwave-84 .language-css .token.string,
+.osteo-synthwave-84 .style .token.string {
+    color: #bbbbbb;
+    background: transparent;
+}
+
+.osteo-synthwave-84 .token.atrule,
+.osteo-synthwave-84 .token.attr-value,
+.osteo-synthwave-84 .token.keyword {
+    color: #fede5d;
+}
+
+.osteo-synthwave-84 .token.function {
+    color: #36f9f6;
+}
+
+.osteo-synthwave-84 .token.regex,
+.osteo-synthwave-84 .token.important,
+.osteo-synthwave-84 .token.variable {
+    color: #f97e72;
+}
+
+.osteo-synthwave-84 .token.important,
+.osteo-synthwave-84 .token.bold {
+    font-weight: bold;
+}
+
+.osteo-synthwave-84 .token.italic {
+    font-style: italic;
+}
+
+.osteo-synthwave-84 .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-synthwave-84 pre[data-line] {
+    position: relative;
+}
+
+.osteo-synthwave-84 pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-synthwave-84 .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #1e202e;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-ayu-mirage pre[class*="language-"],
+.osteo-ayu-mirage code[class*="language-"] {
+    color: #589ac0;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-ayu-mirage pre[class*="language-"]::selection,
+.osteo-ayu-mirage code[class*="language-"]::selection,
+.osteo-ayu-mirage pre[class*="language-"]::mozselection,
+.osteo-ayu-mirage code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-ayu-mirage pre[class*="language-"],
+    .osteo-ayu-mirage code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-ayu-mirage pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #1f2430;
+}
+
+.osteo-ayu-mirage:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #589ac0;
+    background: #1f2430;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-ayu-mirage .namespace {
+    opacity: .7;
+}
+
+.osteo-ayu-mirage .token.comment,
+.osteo-ayu-mirage .token.prolog,
+.osteo-ayu-mirage .token.doctype,
+.osteo-ayu-mirage .token.cdata {
+    color: #6b6b71;
+}
+
+.osteo-ayu-mirage .token.punctuation {
+    color: #989996;
+}
+
+.osteo-ayu-mirage .token.property,
+.osteo-ayu-mirage .token.tag,
+.osteo-ayu-mirage .token.boolean,
+.osteo-ayu-mirage .token.number,
+.osteo-ayu-mirage .token.constant,
+.osteo-ayu-mirage .token.symbol,
+.osteo-ayu-mirage .token.deleted {
+    color: #5ccfe6;
+}
+
+.osteo-ayu-mirage .token.selector,
+.osteo-ayu-mirage .token.attr-name,
+.osteo-ayu-mirage .token.string,
+.osteo-ayu-mirage .token.char,
+.osteo-ayu-mirage .token.builtin,
+.osteo-ayu-mirage .token.inserted {
+    color: #d5ff80;
+}
+
+.osteo-ayu-mirage .token.operator,
+.osteo-ayu-mirage .token.entity,
+.osteo-ayu-mirage .token.url,
+.osteo-ayu-mirage .language-css .token.string,
+.osteo-ayu-mirage .style .token.string {
+    color: #f29e74;
+    background: transparent;
+}
+
+.osteo-ayu-mirage .token.atrule,
+.osteo-ayu-mirage .token.attr-value,
+.osteo-ayu-mirage .token.keyword {
+    color: #ffad60;
+}
+
+.osteo-ayu-mirage .token.function {
+    color: #ffd173;
+}
+
+.osteo-ayu-mirage .token.regex,
+.osteo-ayu-mirage .token.important,
+.osteo-ayu-mirage .token.variable {
+    color: #95d79e;
+}
+
+.osteo-ayu-mirage .token.important,
+.osteo-ayu-mirage .token.bold {
+    font-weight: bold;
+}
+
+.osteo-ayu-mirage .token.italic {
+    font-style: italic;
+}
+
+.osteo-ayu-mirage .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-ayu-mirage pre[data-line] {
+    position: relative;
+}
+
+.osteo-ayu-mirage pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-ayu-mirage .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #1a1f29;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

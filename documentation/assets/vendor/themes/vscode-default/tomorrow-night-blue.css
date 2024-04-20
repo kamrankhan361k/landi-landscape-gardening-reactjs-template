@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-tomorrow-night-blue pre[class*="language-"],
+.osteo-tomorrow-night-blue code[class*="language-"] {
+    color: #ffc58f;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-tomorrow-night-blue pre[class*="language-"]::selection,
+.osteo-tomorrow-night-blue code[class*="language-"]::selection,
+.osteo-tomorrow-night-blue pre[class*="language-"]::mozselection,
+.osteo-tomorrow-night-blue code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-tomorrow-night-blue pre[class*="language-"],
+    .osteo-tomorrow-night-blue code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-tomorrow-night-blue pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #002451;
+}
+
+.osteo-tomorrow-night-blue:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #d0f0a9;
+    background: #002451;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-tomorrow-night-blue .namespace {
+    opacity: .7;
+}
+
+.osteo-tomorrow-night-blue .token.comment,
+.osteo-tomorrow-night-blue .token.prolog,
+.osteo-tomorrow-night-blue .token.doctype,
+.osteo-tomorrow-night-blue .token.cdata {
+    color: #7285b7;
+}
+
+.osteo-tomorrow-night-blue .token.punctuation {
+    color: #ffffff;
+}
+
+.osteo-tomorrow-night-blue .token.property,
+.osteo-tomorrow-night-blue .token.tag,
+.osteo-tomorrow-night-blue .token.boolean,
+.osteo-tomorrow-night-blue .token.number,
+.osteo-tomorrow-night-blue .token.constant,
+.osteo-tomorrow-night-blue .token.symbol,
+.osteo-tomorrow-night-blue .token.deleted {
+    color: #ffeead;
+}
+
+.osteo-tomorrow-night-blue .token.selector,
+.osteo-tomorrow-night-blue .token.attr-name,
+.osteo-tomorrow-night-blue .token.string,
+.osteo-tomorrow-night-blue .token.char,
+.osteo-tomorrow-night-blue .token.builtin,
+.osteo-tomorrow-night-blue .token.inserted {
+    color: #ebbbff;
+}
+
+.osteo-tomorrow-night-blue .token.operator,
+.osteo-tomorrow-night-blue .token.entity,
+.osteo-tomorrow-night-blue .token.url,
+.osteo-tomorrow-night-blue .language-css .token.string,
+.osteo-tomorrow-night-blue .style .token.string {
+    color: #99ffff;
+    background: transparent;
+}
+
+.osteo-tomorrow-night-blue .token.atrule,
+.osteo-tomorrow-night-blue .token.attr-value,
+.osteo-tomorrow-night-blue .token.keyword {
+    color: #ebbbff;
+}
+
+.osteo-tomorrow-night-blue .token.function {
+    color: #bbdaff;
+}
+
+.osteo-tomorrow-night-blue .token.regex,
+.osteo-tomorrow-night-blue .token.important,
+.osteo-tomorrow-night-blue .token.variable {
+    color: #ff9da4;
+}
+
+.osteo-tomorrow-night-blue .token.important,
+.osteo-tomorrow-night-blue .token.bold {
+    font-weight: bold;
+}
+
+.osteo-tomorrow-night-blue .token.italic {
+    font-style: italic;
+}
+
+.osteo-tomorrow-night-blue .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-tomorrow-night-blue pre[data-line] {
+    position: relative;
+}
+
+.osteo-tomorrow-night-blue pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-tomorrow-night-blue .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #002E68;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-atom-one-light pre[class*="language-"],
+.osteo-atom-one-light code[class*="language-"] {
+    color: #383a42;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-atom-one-light pre[class*="language-"]::selection,
+.osteo-atom-one-light code[class*="language-"]::selection,
+.osteo-atom-one-light pre[class*="language-"]::mozselection,
+.osteo-atom-one-light code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-atom-one-light pre[class*="language-"],
+    .osteo-atom-one-light code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-atom-one-light pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #fafafa;
+}
+
+.osteo-atom-one-light:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #383a42;
+    background: #fafafa;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-atom-one-light .namespace {
+    opacity: .7;
+}
+
+.osteo-atom-one-light .token.comment,
+.osteo-atom-one-light .token.prolog,
+.osteo-atom-one-light .token.doctype,
+.osteo-atom-one-light .token.cdata {
+    color: #a4a4aa;
+}
+
+.osteo-atom-one-light .token.punctuation {
+    color: #383a42;
+}
+
+.osteo-atom-one-light .token.property,
+.osteo-atom-one-light .token.tag,
+.osteo-atom-one-light .token.boolean,
+.osteo-atom-one-light .token.number,
+.osteo-atom-one-light .token.constant,
+.osteo-atom-one-light .token.symbol,
+.osteo-atom-one-light .token.deleted {
+    color: #383a42;
+}
+
+.osteo-atom-one-light .token.selector,
+.osteo-atom-one-light .token.attr-name,
+.osteo-atom-one-light .token.string,
+.osteo-atom-one-light .token.char,
+.osteo-atom-one-light .token.builtin,
+.osteo-atom-one-light .token.inserted {
+    color: #50a14f;
+}
+
+.osteo-atom-one-light .token.operator,
+.osteo-atom-one-light .token.entity,
+.osteo-atom-one-light .token.url,
+.osteo-atom-one-light .language-css .token.string,
+.osteo-atom-one-light .style .token.string {
+    color: #0184bc;
+    background: transparent;
+}
+
+.osteo-atom-one-light .token.atrule,
+.osteo-atom-one-light .token.attr-value,
+.osteo-atom-one-light .token.keyword {
+    color: #a626a4;
+}
+
+.osteo-atom-one-light .token.function {
+    color: #4078f2;
+}
+
+.osteo-atom-one-light .token.regex,
+.osteo-atom-one-light .token.important,
+.osteo-atom-one-light .token.variable {
+    color: #0184bc;
+}
+
+.osteo-atom-one-light .token.important,
+.osteo-atom-one-light .token.bold {
+    font-weight: bold;
+}
+
+.osteo-atom-one-light .token.italic {
+    font-style: italic;
+}
+
+.osteo-atom-one-light .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-atom-one-light pre[data-line] {
+    position: relative;
+}
+
+.osteo-atom-one-light pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-atom-one-light .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #f0f0f0;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

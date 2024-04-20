@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-doutone-dark-space pre[class*="language-"],
+.osteo-doutone-dark-space code[class*="language-"] {
+    color: #7f8095;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-doutone-dark-space pre[class*="language-"]::selection,
+.osteo-doutone-dark-space code[class*="language-"]::selection,
+.osteo-doutone-dark-space pre[class*="language-"]::mozselection,
+.osteo-doutone-dark-space code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-doutone-dark-space pre[class*="language-"],
+    .osteo-doutone-dark-space code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-doutone-dark-space pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #2c2734;
+}
+
+.osteo-doutone-dark-space:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #7f8095;
+    background: #2c2734;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-doutone-dark-space .namespace {
+    opacity: .7;
+}
+
+.osteo-doutone-dark-space .token.comment,
+.osteo-doutone-dark-space .token.prolog,
+.osteo-doutone-dark-space .token.doctype,
+.osteo-doutone-dark-space .token.cdata {
+    color: #544d60;
+}
+
+.osteo-doutone-dark-space .token.punctuation {
+    color: #544d60;
+}
+
+.osteo-doutone-dark-space .token.property,
+.osteo-doutone-dark-space .token.tag,
+.osteo-doutone-dark-space .token.boolean,
+.osteo-doutone-dark-space .token.number,
+.osteo-doutone-dark-space .token.constant,
+.osteo-doutone-dark-space .token.symbol,
+.osteo-doutone-dark-space .token.deleted {
+    color: #ae91e8;
+}
+
+.osteo-doutone-dark-space .token.selector,
+.osteo-doutone-dark-space .token.attr-name,
+.osteo-doutone-dark-space .token.string,
+.osteo-doutone-dark-space .token.char,
+.osteo-doutone-dark-space .token.builtin,
+.osteo-doutone-dark-space .token.inserted {
+    color: #fec38f;
+}
+
+.osteo-doutone-dark-space .token.operator,
+.osteo-doutone-dark-space .token.entity,
+.osteo-doutone-dark-space .token.url,
+.osteo-doutone-dark-space .language-css .token.string,
+.osteo-doutone-dark-space .style .token.string {
+    color: #b07745;
+    background: transparent;
+}
+
+.osteo-doutone-dark-space .token.atrule,
+.osteo-doutone-dark-space .token.attr-value,
+.osteo-doutone-dark-space .token.keyword {
+    color: #fec38f;
+}
+
+.osteo-doutone-dark-space .token.function {
+    color: #f1ebff;
+}
+
+.osteo-doutone-dark-space .token.regex,
+.osteo-doutone-dark-space .token.important,
+.osteo-doutone-dark-space .token.variable {
+    color: #fec38f;
+}
+
+.osteo-doutone-dark-space .token.important,
+.osteo-doutone-dark-space .token.bold {
+    font-weight: bold;
+}
+
+.osteo-doutone-dark-space .token.italic {
+    font-style: italic;
+}
+
+.osteo-doutone-dark-space .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-doutone-dark-space pre[data-line] {
+    position: relative;
+}
+
+.osteo-doutone-dark-space pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-doutone-dark-space .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #342e3d;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

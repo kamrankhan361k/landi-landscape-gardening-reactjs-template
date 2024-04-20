@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-bluloco-light pre[class*="language-"],
+.osteo-bluloco-light code[class*="language-"] {
+    color: #c5a386;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-bluloco-light pre[class*="language-"]::selection,
+.osteo-bluloco-light code[class*="language-"]::selection,
+.osteo-bluloco-light pre[class*="language-"]::mozselection,
+.osteo-bluloco-light code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-bluloco-light pre[class*="language-"],
+    .osteo-bluloco-light code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-bluloco-light pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #f9f9f9;
+}
+
+.osteo-bluloco-light:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #c5a386;
+    background: #f9f9f9;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-bluloco-light .namespace {
+    opacity: .7;
+}
+
+.osteo-bluloco-light .token.comment,
+.osteo-bluloco-light .token.prolog,
+.osteo-bluloco-light .token.doctype,
+.osteo-bluloco-light .token.cdata {
+    color: #a0a1a7;
+}
+
+.osteo-bluloco-light .token.punctuation {
+    color: #7a82da;
+}
+
+.osteo-bluloco-light .token.property,
+.osteo-bluloco-light .token.tag,
+.osteo-bluloco-light .token.boolean,
+.osteo-bluloco-light .token.number,
+.osteo-bluloco-light .token.constant,
+.osteo-bluloco-light .token.symbol,
+.osteo-bluloco-light .token.deleted {
+    color: #a05a48;
+}
+
+.osteo-bluloco-light .token.selector,
+.osteo-bluloco-light .token.attr-name,
+.osteo-bluloco-light .token.string,
+.osteo-bluloco-light .token.char,
+.osteo-bluloco-light .token.builtin,
+.osteo-bluloco-light .token.inserted {
+    color: #275fe4;
+}
+
+.osteo-bluloco-light .token.operator,
+.osteo-bluloco-light .token.entity,
+.osteo-bluloco-light .token.url,
+.osteo-bluloco-light .language-css .token.string,
+.osteo-bluloco-light .style .token.string {
+    color: #7a82da;
+    background: transparent;
+}
+
+.osteo-bluloco-light .token.atrule,
+.osteo-bluloco-light .token.attr-value,
+.osteo-bluloco-light .token.keyword {
+    color: #0098dd;
+}
+
+.osteo-bluloco-light .token.function {
+    color: #23974a;
+}
+
+.osteo-bluloco-light .token.regex,
+.osteo-bluloco-light .token.important,
+.osteo-bluloco-light .token.variable {
+    color: #49974a;
+}
+
+.osteo-bluloco-light .token.important,
+.osteo-bluloco-light .token.bold {
+    font-weight: bold;
+}
+
+.osteo-bluloco-light .token.italic {
+    font-style: italic;
+}
+
+.osteo-bluloco-light .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-bluloco-light pre[data-line] {
+    position: relative;
+}
+
+.osteo-bluloco-light pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-bluloco-light .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #f1f1f1;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #f31459;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

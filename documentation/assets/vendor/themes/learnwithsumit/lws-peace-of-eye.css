@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-lws-peace-of-eye pre[class*="language-"],
+.osteo-lws-peace-of-eye code[class*="language-"] {
+    color: #f09867;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-lws-peace-of-eye pre[class*="language-"]::selection,
+.osteo-lws-peace-of-eye code[class*="language-"]::selection,
+.osteo-lws-peace-of-eye pre[class*="language-"]::mozselection,
+.osteo-lws-peace-of-eye code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-lws-peace-of-eye pre[class*="language-"],
+    .osteo-lws-peace-of-eye code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-lws-peace-of-eye pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #122033;
+}
+
+.osteo-lws-peace-of-eye:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #f09867;
+    background: #122033;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-lws-peace-of-eye .namespace {
+    opacity: .7;
+}
+
+.osteo-lws-peace-of-eye .token.comment,
+.osteo-lws-peace-of-eye .token.prolog,
+.osteo-lws-peace-of-eye .token.doctype,
+.osteo-lws-peace-of-eye .token.cdata {
+    color: #606a7a;
+}
+
+.osteo-lws-peace-of-eye .token.punctuation {
+    color: #868d9c;
+}
+
+.osteo-lws-peace-of-eye .token.property,
+.osteo-lws-peace-of-eye .token.tag,
+.osteo-lws-peace-of-eye .token.boolean,
+.osteo-lws-peace-of-eye .token.number,
+.osteo-lws-peace-of-eye .token.constant,
+.osteo-lws-peace-of-eye .token.symbol,
+.osteo-lws-peace-of-eye .token.deleted {
+    color: #d6d9dd;
+}
+
+.osteo-lws-peace-of-eye .token.selector,
+.osteo-lws-peace-of-eye .token.attr-name,
+.osteo-lws-peace-of-eye .token.string,
+.osteo-lws-peace-of-eye .token.char,
+.osteo-lws-peace-of-eye .token.builtin,
+.osteo-lws-peace-of-eye .token.inserted {
+    color: #2ecfa8;
+}
+
+.osteo-lws-peace-of-eye .token.operator,
+.osteo-lws-peace-of-eye .token.entity,
+.osteo-lws-peace-of-eye .token.url,
+.osteo-lws-peace-of-eye .language-css .token.string,
+.osteo-lws-peace-of-eye .style .token.string {
+    color: #868d9c;
+    background: transparent;
+}
+
+.osteo-lws-peace-of-eye .token.atrule,
+.osteo-lws-peace-of-eye .token.attr-value,
+.osteo-lws-peace-of-eye .token.keyword {
+    color: #49cec6;
+}
+
+.osteo-lws-peace-of-eye .token.function {
+    color: #78dce8;
+}
+
+.osteo-lws-peace-of-eye .osteo-lws-peace-of-eye .token.regex,
+.osteo-lws-peace-of-eye .osteo-lws-peace-of-eye .token.important,
+.osteo-lws-peace-of-eye .osteo-lws-peace-of-eye .token.variable {
+    color: #2ecfa8;
+}
+
+.osteo-lws-peace-of-eye .token.important,
+.osteo-lws-peace-of-eye .token.bold {
+    font-weight: bold;
+}
+
+.osteo-lws-peace-of-eye .token.italic {
+    font-style: italic;
+}
+
+.osteo-lws-peace-of-eye .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-lws-peace-of-eye pre[data-line] {
+    position: relative;
+}
+
+.osteo-lws-peace-of-eye pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-lws-peace-of-eye .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #192639;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

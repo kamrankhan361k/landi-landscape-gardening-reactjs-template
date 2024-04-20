@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-lws-peace-of-eye-dracula-version pre[class*="language-"],
+.osteo-lws-peace-of-eye-dracula-version code[class*="language-"] {
+    color: #8c89f9;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-lws-peace-of-eye-dracula-version pre[class*="language-"]::selection,
+.osteo-lws-peace-of-eye-dracula-version code[class*="language-"]::selection,
+.osteo-lws-peace-of-eye-dracula-version pre[class*="language-"]::mozselection,
+.osteo-lws-peace-of-eye-dracula-version code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-lws-peace-of-eye-dracula-version pre[class*="language-"],
+    .osteo-lws-peace-of-eye-dracula-version code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-lws-peace-of-eye-dracula-version pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #122033;
+}
+
+.osteo-lws-peace-of-eye-dracula-version:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #8c89f9;
+    background: #122033;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-lws-peace-of-eye-dracula-version .namespace {
+    opacity: .7;
+}
+
+.osteo-lws-peace-of-eye-dracula-version .token.comment,
+.osteo-lws-peace-of-eye-dracula-version .token.prolog,
+.osteo-lws-peace-of-eye-dracula-version .token.doctype,
+.osteo-lws-peace-of-eye-dracula-version .token.cdata {
+    color: #6272a4;
+}
+
+.osteo-lws-peace-of-eye-dracula-version .token.punctuation {
+    color: #f8f8f2;
+}
+
+.osteo-lws-peace-of-eye-dracula-version .token.property,
+.osteo-lws-peace-of-eye-dracula-version .token.tag,
+.osteo-lws-peace-of-eye-dracula-version .token.boolean,
+.osteo-lws-peace-of-eye-dracula-version .token.number,
+.osteo-lws-peace-of-eye-dracula-version .token.constant,
+.osteo-lws-peace-of-eye-dracula-version .token.symbol,
+.osteo-lws-peace-of-eye-dracula-version .token.deleted {
+    color: #8be9fd;
+}
+
+.osteo-lws-peace-of-eye-dracula-version .token.selector,
+.osteo-lws-peace-of-eye-dracula-version .token.attr-name,
+.osteo-lws-peace-of-eye-dracula-version .token.string,
+.osteo-lws-peace-of-eye-dracula-version .token.char,
+.osteo-lws-peace-of-eye-dracula-version .token.builtin,
+.osteo-lws-peace-of-eye-dracula-version .token.inserted {
+    color: #f1fa8c;
+}
+
+.osteo-lws-peace-of-eye-dracula-version .token.operator,
+.osteo-lws-peace-of-eye-dracula-version .token.entity,
+.osteo-lws-peace-of-eye-dracula-version .token.url,
+.osteo-lws-peace-of-eye-dracula-version .language-css .token.string,
+.osteo-lws-peace-of-eye-dracula-version .style .token.string {
+    color: #ff79c6;
+    background: transparent;
+}
+
+.osteo-lws-peace-of-eye-dracula-version .token.atrule,
+.osteo-lws-peace-of-eye-dracula-version .token.attr-value,
+.osteo-lws-peace-of-eye-dracula-version .token.keyword {
+    color: #ff79c6;
+}
+
+.osteo-lws-peace-of-eye-dracula-version .token.function {
+    color: #3add7b;
+}
+
+.osteo-lws-peace-of-eye-dracula-version .token.regex,
+.osteo-lws-peace-of-eye-dracula-version .token.important,
+.osteo-lws-peace-of-eye-dracula-version .token.variable {
+    color: #f1fa8c;
+}
+
+.osteo-lws-peace-of-eye-dracula-version .token.important,
+.osteo-lws-peace-of-eye-dracula-version .token.bold {
+    font-weight: bold;
+}
+
+.osteo-lws-peace-of-eye-dracula-version .token.italic {
+    font-style: italic;
+}
+
+.osteo-lws-peace-of-eye-dracula-version .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-lws-peace-of-eye-dracula-version pre[data-line] {
+    position: relative;
+}
+
+.osteo-lws-peace-of-eye-dracula-version pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-lws-peace-of-eye-dracula-version .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #192639;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

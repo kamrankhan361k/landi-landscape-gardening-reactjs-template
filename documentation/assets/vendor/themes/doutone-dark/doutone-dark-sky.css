@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-doutone-dark-sky pre[class*="language-"],
+.osteo-doutone-dark-sky code[class*="language-"] {
+    color: #b1afc3;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-doutone-dark-sky pre[class*="language-"]::selection,
+.osteo-doutone-dark-sky code[class*="language-"]::selection,
+.osteo-doutone-dark-sky pre[class*="language-"]::mozselection,
+.osteo-doutone-dark-sky code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-doutone-dark-sky pre[class*="language-"],
+    .osteo-doutone-dark-sky code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-doutone-dark-sky pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #2c2734;
+}
+
+.osteo-doutone-dark-sky:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #b1afc3;
+    background: #2c2734;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-doutone-dark-sky .namespace {
+    opacity: .7;
+}
+
+.osteo-doutone-dark-sky .token.comment,
+.osteo-doutone-dark-sky .token.prolog,
+.osteo-doutone-dark-sky .token.doctype,
+.osteo-doutone-dark-sky .token.cdata {
+    color: #544d60;
+}
+
+.osteo-doutone-dark-sky .token.punctuation {
+    color: #544d60;
+}
+
+.osteo-doutone-dark-sky .token.property,
+.osteo-doutone-dark-sky .token.tag,
+.osteo-doutone-dark-sky .token.boolean,
+.osteo-doutone-dark-sky .token.number,
+.osteo-doutone-dark-sky .token.constant,
+.osteo-doutone-dark-sky .token.symbol,
+.osteo-doutone-dark-sky .token.deleted {
+    color: #ae91e8;
+}
+
+.osteo-doutone-dark-sky .token.selector,
+.osteo-doutone-dark-sky .token.attr-name,
+.osteo-doutone-dark-sky .token.string,
+.osteo-doutone-dark-sky .token.char,
+.osteo-doutone-dark-sky .token.builtin,
+.osteo-doutone-dark-sky .token.inserted {
+    color: #fec38f;
+}
+
+.osteo-doutone-dark-sky .token.operator,
+.osteo-doutone-dark-sky .token.entity,
+.osteo-doutone-dark-sky .token.url,
+.osteo-doutone-dark-sky .language-css .token.string,
+.osteo-doutone-dark-sky .style .token.string {
+    color: #b07745;
+    background: transparent;
+}
+
+.osteo-doutone-dark-sky .token.atrule,
+.osteo-doutone-dark-sky .token.attr-value,
+.osteo-doutone-dark-sky .token.keyword {
+    color: #fec38f;
+}
+
+.osteo-doutone-dark-sky .token.function {
+    color: #f1e8f3;
+}
+
+.osteo-doutone-dark-sky .token.regex,
+.osteo-doutone-dark-sky .token.important,
+.osteo-doutone-dark-sky .token.variable {
+    color: #fec38f;
+}
+
+.osteo-doutone-dark-sky .token.important,
+.osteo-doutone-dark-sky .token.bold {
+    font-weight: bold;
+}
+
+.osteo-doutone-dark-sky .token.italic {
+    font-style: italic;
+}
+
+.osteo-doutone-dark-sky .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-doutone-dark-sky pre[data-line] {
+    position: relative;
+}
+
+.osteo-doutone-dark-sky pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-doutone-dark-sky .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #342e3d;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

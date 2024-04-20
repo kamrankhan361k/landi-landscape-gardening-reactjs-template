@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-monokai pre[class*="language-"],
+.osteo-monokai code[class*="language-"] {
+    color: #ae81ff;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-monokai pre[class*="language-"]::selection,
+.osteo-monokai code[class*="language-"]::selection,
+.osteo-monokai pre[class*="language-"]::mozselection,
+.osteo-monokai code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-monokai pre[class*="language-"],
+    .osteo-monokai code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-monokai pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #272822;
+}
+
+.osteo-monokai:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #e6db74;
+    background: #272822;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-monokai .namespace {
+    opacity: .7;
+}
+
+.osteo-monokai .token.comment,
+.osteo-monokai .token.prolog,
+.osteo-monokai .token.doctype,
+.osteo-monokai .token.cdata {
+    color: #4d6b6f;
+}
+
+.osteo-monokai .token.punctuation {
+    color: #f8f8f2;
+}
+
+.osteo-monokai .token.property,
+.osteo-monokai .token.tag,
+.osteo-monokai .token.boolean,
+.osteo-monokai .token.number,
+.osteo-monokai .token.constant,
+.osteo-monokai .token.symbol,
+.osteo-monokai .token.deleted {
+    color: #66d9ef;
+}
+
+.osteo-monokai .token.selector,
+.osteo-monokai .token.attr-name,
+.osteo-monokai .token.string,
+.osteo-monokai .token.char,
+.osteo-monokai .token.builtin,
+.osteo-monokai .token.inserted {
+    color: #f92672;
+}
+
+.osteo-monokai .token.operator,
+.osteo-monokai .token.entity,
+.osteo-monokai .token.url,
+.osteo-monokai .language-css .token.string,
+.osteo-monokai .style .token.string {
+    color: #f92672;
+    background: transparent;
+}
+
+.osteo-monokai .token.atrule,
+.osteo-monokai .token.attr-value,
+.osteo-monokai .token.keyword {
+    color: #66d9ef;
+}
+
+.osteo-monokai .token.function {
+    color: #a6e22e;
+}
+
+.osteo-monokai .token.regex,
+.osteo-monokai .token.important,
+.osteo-monokai .token.variable {
+    color: #e6db74;
+}
+
+.osteo-monokai .token.important,
+.osteo-monokai .token.bold {
+    font-weight: bold;
+}
+
+.osteo-monokai .token.italic {
+    font-style: italic;
+}
+
+.osteo-monokai .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-monokai pre[data-line] {
+    position: relative;
+}
+
+.osteo-monokai pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-monokai .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #1e202e;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

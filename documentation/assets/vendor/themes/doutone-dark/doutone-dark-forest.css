@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-doutone-dark-forest pre[class*="language-"],
+.osteo-doutone-dark-forest code[class*="language-"] {
+    color: #a0b6a7;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-doutone-dark-forest pre[class*="language-"]::selection,
+.osteo-doutone-dark-forest code[class*="language-"]::selection,
+.osteo-doutone-dark-forest pre[class*="language-"]::mozselection,
+.osteo-doutone-dark-forest code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-doutone-dark-forest pre[class*="language-"],
+    .osteo-doutone-dark-forest code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-doutone-dark-forest pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #2a2d2a;
+}
+
+.osteo-doutone-dark-forest:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #a0b6a7;
+    background: #2a2d2a;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-doutone-dark-forest .namespace {
+    opacity: .7;
+}
+
+.osteo-doutone-dark-forest .token.comment,
+.osteo-doutone-dark-forest .token.prolog,
+.osteo-doutone-dark-forest .token.doctype,
+.osteo-doutone-dark-forest .token.cdata {
+    color: #585f4f;
+}
+
+.osteo-doutone-dark-forest .token.punctuation {
+    color: #585f58;
+}
+
+.osteo-doutone-dark-forest .token.property,
+.osteo-doutone-dark-forest .token.tag,
+.osteo-doutone-dark-forest .token.boolean,
+.osteo-doutone-dark-forest .token.number,
+.osteo-doutone-dark-forest .token.constant,
+.osteo-doutone-dark-forest .token.symbol,
+.osteo-doutone-dark-forest .token.deleted {
+    color: #869886;
+}
+
+.osteo-doutone-dark-forest .token.selector,
+.osteo-doutone-dark-forest .token.attr-name,
+.osteo-doutone-dark-forest .token.string,
+.osteo-doutone-dark-forest .token.char,
+.osteo-doutone-dark-forest .token.builtin,
+.osteo-doutone-dark-forest .token.inserted {
+    color: #e7f98b;
+}
+
+.osteo-doutone-dark-forest .token.operator,
+.osteo-doutone-dark-forest .token.entity,
+.osteo-doutone-dark-forest .token.url,
+.osteo-doutone-dark-forest .language-css .token.string,
+.osteo-doutone-dark-forest .style .token.string {
+    color: #99a659;
+    background: transparent;
+}
+
+.osteo-doutone-dark-forest .token.atrule,
+.osteo-doutone-dark-forest .token.attr-value,
+.osteo-doutone-dark-forest .token.keyword {
+    color: #e7f98b;
+}
+
+.osteo-doutone-dark-forest .token.function {
+    color: #ddf8dd;
+}
+
+.osteo-doutone-dark-forest .token.regex,
+.osteo-doutone-dark-forest .token.important,
+.osteo-doutone-dark-forest .token.variable {
+    color: #e7f98b;
+}
+
+.osteo-doutone-dark-forest .token.important,
+.osteo-doutone-dark-forest .token.bold {
+    font-weight: bold;
+}
+
+.osteo-doutone-dark-forest .token.italic {
+    font-style: italic;
+}
+
+.osteo-doutone-dark-forest .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-doutone-dark-forest pre[data-line] {
+    position: relative;
+}
+
+.osteo-doutone-dark-forest pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-doutone-dark-forest .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #313531;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

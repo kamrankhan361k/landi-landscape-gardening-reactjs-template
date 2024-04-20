@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-one-dark-pro-flat pre[class*="language-"],
+.osteo-one-dark-pro-flat code[class*="language-"] {
+    color: #d19a66;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-one-dark-pro-flat pre[class*="language-"]::selection,
+.osteo-one-dark-pro-flat code[class*="language-"]::selection,
+.osteo-one-dark-pro-flat pre[class*="language-"]::mozselection,
+.osteo-one-dark-pro-flat code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-one-dark-pro-flat pre[class*="language-"],
+    .osteo-one-dark-pro-flat code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-one-dark-pro-flat pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #282c34;
+}
+
+.osteo-one-dark-pro-flat:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #7ec379;
+    background: #282c34;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-one-dark-pro-flat .namespace {
+    opacity: .7;
+}
+
+.osteo-one-dark-pro-flat .token.comment,
+.osteo-one-dark-pro-flat .token.prolog,
+.osteo-one-dark-pro-flat .token.doctype,
+.osteo-one-dark-pro-flat .token.cdata {
+    color: #7f848e;
+}
+
+.osteo-one-dark-pro-flat .token.punctuation {
+    color: #ffffff;
+}
+
+.osteo-one-dark-pro-flat .token.property,
+.osteo-one-dark-pro-flat .token.tag,
+.osteo-one-dark-pro-flat .token.boolean,
+.osteo-one-dark-pro-flat .token.number,
+.osteo-one-dark-pro-flat .token.constant,
+.osteo-one-dark-pro-flat .token.symbol,
+.osteo-one-dark-pro-flat .token.deleted {
+    color: #d4d4d4;
+}
+
+.osteo-one-dark-pro-flat .token.selector,
+.osteo-one-dark-pro-flat .token.attr-name,
+.osteo-one-dark-pro-flat .token.string,
+.osteo-one-dark-pro-flat .token.char,
+.osteo-one-dark-pro-flat .token.builtin,
+.osteo-one-dark-pro-flat .token.inserted {
+    color: #e06c75;
+}
+
+.osteo-one-dark-pro-flat .token.operator,
+.osteo-one-dark-pro-flat .token.entity,
+.osteo-one-dark-pro-flat .token.url,
+.osteo-one-dark-pro-flat .language-css .token.string,
+.osteo-one-dark-pro-flat .style .token.string {
+    color: #abb2bf;
+    background: transparent;
+}
+
+.osteo-one-dark-pro-flat .token.atrule,
+.osteo-one-dark-pro-flat .token.attr-value,
+.osteo-one-dark-pro-flat .token.keyword {
+    color: #c678dd;
+}
+
+.osteo-one-dark-pro-flat .token.function {
+    color: #61afef;
+}
+
+.osteo-one-dark-pro-flat .token.regex,
+.osteo-one-dark-pro-flat .token.important,
+.osteo-one-dark-pro-flat .token.variable {
+    color: #56b6c2;
+}
+
+.osteo-one-dark-pro-flat .token.important,
+.osteo-one-dark-pro-flat .token.bold {
+    font-weight: bold;
+}
+
+.osteo-one-dark-pro-flat .token.italic {
+    font-style: italic;
+}
+
+.osteo-one-dark-pro-flat .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-one-dark-pro-flat pre[data-line] {
+    position: relative;
+}
+
+.osteo-one-dark-pro-flat pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-one-dark-pro-flat .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #1e202e;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-nord pre[class*="language-"],
+.osteo-nord code[class*="language-"] {
+    color: #3b6fac;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-nord pre[class*="language-"]::selection,
+.osteo-nord code[class*="language-"]::selection,
+.osteo-nord pre[class*="language-"]::mozselection,
+.osteo-nord code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-nord pre[class*="language-"],
+    .osteo-nord code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-nord pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #2e3440;
+}
+
+.osteo-nord:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #3b6fac;
+    background: #2e3440;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-nord .namespace {
+    opacity: .7;
+}
+
+.osteo-nord .token.comment,
+.osteo-nord .token.prolog,
+.osteo-nord .token.doctype,
+.osteo-nord .token.cdata {
+    color: #516e88;
+}
+
+.osteo-nord .token.punctuation {
+    color: #81a1c1;
+}
+
+.osteo-nord .token.property,
+.osteo-nord .token.tag,
+.osteo-nord .token.boolean,
+.osteo-nord .token.number,
+.osteo-nord .token.constant,
+.osteo-nord .token.symbol,
+.osteo-nord .token.deleted {
+    color: #d8dee9;
+}
+
+.osteo-nord .token.selector,
+.osteo-nord .token.attr-name,
+.osteo-nord .token.string,
+.osteo-nord .token.char,
+.osteo-nord .token.builtin,
+.osteo-nord .token.inserted {
+    color: #a3be8c;
+}
+
+.osteo-nord .token.operator,
+.osteo-nord .token.entity,
+.osteo-nord .token.url,
+.osteo-nord .language-css .token.string,
+.osteo-nord .style .token.string {
+    color: #81a1c1;
+    background: transparent;
+}
+
+.osteo-nord .token.atrule,
+.osteo-nord .token.attr-value,
+.osteo-nord .token.keyword {
+    color: #487eba;
+}
+
+.osteo-nord .token.function {
+    color: #63aacc;
+}
+
+.osteo-nord .token.regex,
+.osteo-nord .token.important,
+.osteo-nord .token.variable {
+    color: #ebcb8b;
+}
+
+.osteo-nord .token.important,
+.osteo-nord .token.bold {
+    font-weight: bold;
+}
+
+.osteo-nord .token.italic {
+    font-style: italic;
+}
+
+.osteo-nord .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-nord pre[data-line] {
+    position: relative;
+}
+
+.osteo-nord pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-nord .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #3b4252;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-lws-simple-as-light pre[class*="language-"],
+.osteo-lws-simple-as-light code[class*="language-"] {
+    color: #d08032;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-lws-simple-as-light pre[class*="language-"]::selection,
+.osteo-lws-simple-as-light code[class*="language-"]::selection,
+.osteo-lws-simple-as-light pre[class*="language-"]::mozselection,
+.osteo-lws-simple-as-light code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-lws-simple-as-light pre[class*="language-"],
+    .osteo-lws-simple-as-light code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-lws-simple-as-light pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #ffffff;
+}
+
+.osteo-lws-simple-as-light:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #d08032;
+    background: #ffffff;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-lws-simple-as-light .namespace {
+    opacity: .7;
+}
+
+.osteo-lws-simple-as-light .token.comment,
+.osteo-lws-simple-as-light .token.prolog,
+.osteo-lws-simple-as-light .token.doctype,
+.osteo-lws-simple-as-light .token.cdata {
+    color: #b1bbc4;
+}
+
+.osteo-lws-simple-as-light .token.punctuation {
+    color: #8b99a7;
+}
+
+.osteo-lws-simple-as-light .token.property,
+.osteo-lws-simple-as-light .token.tag,
+.osteo-lws-simple-as-light .token.boolean,
+.osteo-lws-simple-as-light .token.number,
+.osteo-lws-simple-as-light .token.constant,
+.osteo-lws-simple-as-light .token.symbol,
+.osteo-lws-simple-as-light .token.deleted {
+    color: #635059;
+}
+
+.osteo-lws-simple-as-light .token.selector,
+.osteo-lws-simple-as-light .token.attr-name,
+.osteo-lws-simple-as-light .token.string,
+.osteo-lws-simple-as-light .token.char,
+.osteo-lws-simple-as-light .token.builtin,
+.osteo-lws-simple-as-light .token.inserted {
+    color: #37ae6f;
+}
+
+.osteo-lws-simple-as-light .token.operator,
+.osteo-lws-simple-as-light .token.entity,
+.osteo-lws-simple-as-light .token.url,
+.osteo-lws-simple-as-light .language-css .token.string,
+.osteo-lws-simple-as-light .style .token.string {
+    color: #8b99a7;
+    background: transparent;
+}
+
+.osteo-lws-simple-as-light .token.atrule,
+.osteo-lws-simple-as-light .token.attr-value,
+.osteo-lws-simple-as-light .token.keyword {
+    color: #24b5aa;
+}
+
+.osteo-lws-simple-as-light .token.function {
+    color: #3398e0;
+}
+
+.osteo-lws-simple-as-light .token.regex,
+.osteo-lws-simple-as-light .token.important,
+.osteo-lws-simple-as-light .token.variable {
+    color: #6eae6f;
+}
+
+.osteo-lws-simple-as-light .token.important,
+.osteo-lws-simple-as-light .token.bold {
+    font-weight: bold;
+}
+
+.osteo-lws-simple-as-light .token.italic {
+    font-style: italic;
+}
+
+.osteo-lws-simple-as-light .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-lws-simple-as-light pre[data-line] {
+    position: relative;
+}
+
+.osteo-lws-simple-as-light pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-lws-simple-as-light .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #f5fafd;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #2196F3;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}

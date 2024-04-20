@@ -1,0 +1,175 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+
+
+/* http://k88hudson.github.io/react-markdocs */
+
+
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+/*********************************************************
+* General
+*/
+
+.osteo-github-light-default pre[class*="language-"],
+.osteo-github-light-default code[class*="language-"] {
+    color: #0550ae;
+    font-size: 13px;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.osteo-github-light-default pre[class*="language-"]::selection,
+.osteo-github-light-default code[class*="language-"]::selection,
+.osteo-github-light-default pre[class*="language-"]::mozselection,
+.osteo-github-light-default code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: yellow;
+}
+
+@media print {
+    .osteo-github-light-default pre[class*="language-"],
+    .osteo-github-light-default code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+.osteo-github-light-default pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    background: #ffffff;
+}
+
+.osteo-github-light-default:not(pre)>code[class*="language-"] {
+    padding: .1em .3em;
+    border-radius: .3em;
+    color: #0550ae;
+    background: #ffffff;
+}
+
+
+/*********************************************************
+* Tokens
+*/
+
+.osteo-github-light-default .namespace {
+    opacity: .7;
+}
+
+.osteo-github-light-default .token.comment,
+.osteo-github-light-default .token.prolog,
+.osteo-github-light-default .token.doctype,
+.osteo-github-light-default .token.cdata {
+    color: #9fa5ac;
+}
+
+.osteo-github-light-default .token.punctuation {
+    color: #24292f;
+}
+
+.osteo-github-light-default .token.property,
+.osteo-github-light-default .token.tag,
+.osteo-github-light-default .token.boolean,
+.osteo-github-light-default .token.number,
+.osteo-github-light-default .token.constant,
+.osteo-github-light-default .token.symbol,
+.osteo-github-light-default .token.deleted {
+    color: #0550ae;
+}
+
+.osteo-github-light-default .token.selector,
+.osteo-github-light-default .token.attr-name,
+.osteo-github-light-default .token.string,
+.osteo-github-light-default .token.char,
+.osteo-github-light-default .token.builtin,
+.osteo-github-light-default .token.inserted {
+    color: #116329;
+}
+
+.osteo-github-light-default .token.operator,
+.osteo-github-light-default .token.entity,
+.osteo-github-light-default .token.url,
+.osteo-github-light-default .language-css .token.string,
+.osteo-github-light-default .style .token.string {
+    color: #cf222e;
+    background: transparent;
+}
+
+.osteo-github-light-default .token.atrule,
+.osteo-github-light-default .token.attr-value,
+.osteo-github-light-default .token.keyword {
+    color: #cf222e;
+}
+
+.osteo-github-light-default .token.function {
+    color: #8250df;
+}
+
+.osteo-github-light-default .token.regex,
+.osteo-github-light-default .token.important,
+.osteo-github-light-default .token.variable {
+    color: #0a3069;
+}
+
+.osteo-github-light-default .token.important,
+.osteo-github-light-default .token.bold {
+    font-weight: bold;
+}
+
+.osteo-github-light-default .token.italic {
+    font-style: italic;
+}
+
+.osteo-github-light-default .token.entity {
+    cursor: help;
+}
+
+
+/*********************************************************
+* Line highlighting
+*/
+
+.osteo-github-light-default pre[data-line] {
+    position: relative;
+}
+
+.osteo-github-light-default pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.osteo-github-light-default .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #f4f6f8;
+    box-shadow: none;
+    border-left: 5px solid;
+    border-color: #24292f;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}
